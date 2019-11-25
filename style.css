@@ -1,0 +1,293 @@
+      body,html{
+        height: 100%;
+      }
+
+  		.row{
+  			min-height: 50px;}
+
+      .whiteRow{
+        background-color: rgba(255,255,255,0.25);
+      }
+
+      .navRow{
+        padding-bottom: 20px;
+        background-color: #373737;
+        color: #ffffff;
+
+      }
+
+      .nav-item{
+        padding: 10px;
+      }
+
+      .nav-link{
+        color: #ffffff;
+        float: center;
+      }
+
+      .center{
+        top: 50%;
+        bottom: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .header{
+        color: white;
+        font-weight: 250;
+        padding-top: 30px;
+      }
+
+      .learnMoreButton{
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 30px;
+        color: white;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 200;
+        font-size: small;
+      }
+
+      .bodyCopy{
+        color: white;
+        font-weight: 200;
+        padding-left: 50px;
+        padding-right:50px;
+      }
+
+      .landingBody{
+        padding-right: 30px; 
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 50px;
+      }
+
+      .contactBody{
+        padding-right: 30px; 
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 50px;
+      }
+
+      .whiteBodyBG{
+        background-color: rgba(255,255,255,0.25);
+      }
+
+      .active{
+        color: #CA2027;
+      }
+
+      .headerTop{
+        background-color: #373737;
+        color: #ffffff;
+      }
+
+      .rowHeader{
+        position: top;
+      }
+
+      .redHeader{
+        color: #CA2027;
+        padding-top: 60px;
+        padding-bottom: 15px;
+      }
+
+      .clientsBody{
+        padding-bottom: 25px;
+      }
+
+      .portfolioBody{
+        padding-bottom: 25px;
+      }
+
+
+
+      .container-fluidBorder{
+        border: 1px;
+        border-color: rgba(255,255,255,0.50);
+        border-style: solid;
+
+      }
+
+      .navbarAlign{
+        padding: 20px;
+      }
+
+      .missionHeader{
+        color: #CF2129;
+        padding-top: 80px;
+        padding-bottom:0px;
+        padding-left:0px;
+        padding-right:0px;
+        margin-bottom: 0px;
+        vertical-align: baseline;
+      }
+
+      .coreValuesHeader{
+        color: #373737;
+        padding-top: 60px;
+        padding-bottom:0px;
+        padding-left:0px;
+        padding-right:0px;
+        margin-bottom: 0px;
+        vertical-align: baseline;
+      }
+
+      .missionBG{
+        color: #FFFFFF;
+        background-color: #CF2129;
+      }
+
+      .coreValuesBG{
+        color: #FFFFFF;
+        background-color: #373737;
+      }
+
+      .connectFooter{
+        background-color: #CF2129;
+        color: #FFFFFF;
+        padding-bottom: 25px;
+      }
+
+
+
+      .bottom{
+        position: absolute;
+        bottom: -1px;
+      }
+
+@media only screen and (max-width: 760px){
+        .bottom{
+        position: relative;
+        bottom: -1px;
+      }}
+
+      .leftSide{
+        position: absolute;
+        left: -1px;
+      }
+
+           .rightSide{
+        position: absolute;
+        right: -1px;
+      }
+
+      .noPadding{
+        padding: 0px;
+
+      }
+
+      .noMargin{
+        margin: 0px;
+      }
+
+      .noPadding{
+        padding: 0px;
+      }
+
+      .vertAlign{
+        position: relative;
+        top: 25%;
+      }
+
+      .DClogo{
+        padding: 20px;
+        max-height: 110px;
+        min-height: 70px;
+      }
+
+      .SMicon{
+        padding-top:10px;
+        padding-bottom:10px;
+        min-width: 65px;
+        max-width: 80px;
+      }
+
+      .HBbutton{
+        background-color: #ffffff;
+        padding-left:75px;
+        padding-right:75px;
+        padding-top:5px;
+        padding-bottom:5px;
+
+
+      }
+
+      .HBbg{
+        background-color: #ffffff;
+      }
+
+      .map{
+        padding: 20px;
+      }
+
+      .missionCopy{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .missionBullets{
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 30px;
+
+      }
+
+      .valuesCopy{
+        padding: 30px;
+      }
+
+      .portfolioImages{
+        padding: 30px;
+      }
+
+      .servicesImages{
+        max-width: 150px;
+      }
+
+      .carouselImages{
+        padding-bottom: 50px;
+      }
+      .carouselHeader{
+        color: white;
+        font-weight: 250;
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+
+      .carouselBody{
+        color: white;
+        font-weight: 250;
+        padding-top: 40px;
+        padding-bottom:60px;
+        padding-right:60px;
+      }
+
+      .carousel-bg1{
+      background-image: url('images/Empower_BG.jpg');
+      width:100%;
+      height:100%;
+
+      }
+
+      .carousel-bg2{
+      background-image: url('images/Relationships_BG.jpg');
+      width:100%;
+      height:100%
+
+      }
+
+      .carousel-bg3{
+      background-image: url('images/Innovation_BG.jpg');
+      width:100%;
+      height:100%
+      }
+
+/*navbar testing elements*/
+
